@@ -6,7 +6,7 @@ end
 # Disable greeting
 set fish_greeting
 
-# OS-specifi
+# OS-specific
 switch (uname)
     case Darwin
         # Homebrew
@@ -14,6 +14,11 @@ switch (uname)
         if test -d $HOME/homebrew
             fish_add_path $HOME/homebrew/bin
         end
+end
+
+# Go executables
+if command -q go
+    fish_add_path $HOME/go/bin
 end
 
 # Eyecandy 🍬
