@@ -1,0 +1,12 @@
+[
+  {
+    "bindings": {
+      "cmd-ù": "terminal_panel::ToggleFocus",
+      "alt-p": "terminal_panel::ToggleFocus",
+      "ctrl-c": "project_panel::CollapseSelectedEntry",
+      "ctrl-shift-c": "project_panel::CollapseAllEntries",
+      "ctrl-t": "workspace::NewTerminal",
+      "ctrl-+": "pane::GoForward"
+    }
+  }
+]

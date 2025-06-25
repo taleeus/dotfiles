@@ -12,6 +12,12 @@ then
     brew install alacritty
 fi
 
+if ! command -v fastfetch >/dev/null 2>&1
+then
+    echo "[+] fastfetch (eyecandy is important 🍬😤)"
+    brew install fastfetch
+fi
+
 echo "[+] alacritty config files"
 
 alacritty_dir="$HOME/.config/alacritty"

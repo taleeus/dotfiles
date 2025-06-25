@@ -1,0 +1,57 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "show_edit_predictions": false,
+  "agent": {
+    "enabled": false,
+    "version": "2"
+  },
+  "icon_theme": "Catppuccin Mocha",
+  "vim_mode": true,
+  "outline_panel": {
+    "dock": "right"
+  },
+  "collaboration_panel": {
+    "dock": "right"
+  },
+  "features": {
+    "copilot": false,
+    "edit_prediction_provider": "none"
+  },
+  "theme": "Catppuccin Mocha (Blur)",
+  "ui_font_size": 16,
+  "buffer_font_size": 14.0,
+  "ui_font_family": "Caskaydia Cove",
+  "relative_line_numbers": false,
+  "autosave": "on_focus_change",
+  "terminal": {
+    "dock": "bottom",
+    "font_family": "MesloLGS NF"
+  },
+  "tabs": {
+    "git_status": true
+  },
+  "show_completions_on_input": false,
+  "languages": {
+    "JSONC": {
+      "show_edit_predictions": false
+    },
+    "SQL": {
+      "format_on_save": "off"
+    }
+  },
+  "context_servers": {
+    "postgres-context-server": {
+      "source": "extension",
+      "settings": {
+        "database_url": "postgresql://root:password@localhost:5432/otokiosk"
+      }
+    }
+  }
+}
